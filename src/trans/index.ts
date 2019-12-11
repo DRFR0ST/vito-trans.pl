@@ -1,0 +1,1 @@
+export { default as MenuTrans } from "./Menu.trans";
