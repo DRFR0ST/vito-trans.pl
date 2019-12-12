@@ -1,9 +1,33 @@
+import { About, Contact, Header } from '../common';
+
 import React from 'react';
 
 const Home: React.FC = () => {
   return (
     <div>
-      Home page
+      <Header />
+      <About />
+      <Contact />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }

@@ -14,13 +14,14 @@ const theme = createMuiTheme({
 });
 
 const App: React.FC = () => {
-  const [language, setLanguage] = useState("en_US");
+  const [language, setLanguage] = useState("pl_PL");
 
   return (
     <ThemeProvider theme={theme}>
       <LitteraProvider language={language} setLanguage={setLanguage}>
-        <Appbar />
-        <Routes />
+        <Appbar>
+          <Routes />
+        </Appbar>
       </LitteraProvider>
     </ThemeProvider>
   );
