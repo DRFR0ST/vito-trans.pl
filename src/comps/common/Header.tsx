@@ -75,7 +75,7 @@ const Header: React.FC = () => {
           </div>
         </div>
         <div className={classes.thumbnailContainer}>
-          <img className={classes.thumbnail} src={thumbnailImage} />
+          <img className={classes.thumbnail} alt="Header thumbnail" src={thumbnailImage} />
         </div>
       </div>
     </div>
