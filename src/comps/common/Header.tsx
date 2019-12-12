@@ -70,7 +70,7 @@ const Header: React.FC = () => {
           <div>
             <Typography variant="h2" style={{fontWeight: "bold", marginBottom: "10px"}}>{translated.title}</Typography>
             <Typography paragraph>Labore labore nostrud nostrud adipisicing. Cupidatat sit anim dolore laboris laborum adipisicing. Eiusmod enim ad sint anim dolore. Dolore nulla veniam Lorem est dolor sunt occaecat quis irure anim exercitation tempor cillum mollit. Dolore ut sint ex nulla ad culpa veniam consequat aute non ut excepteur nisi ex.</Typography>
-            <Button variant="contained" color="primary">Zapoznaj się</Button>
+            <Button variant="contained" color="primary">{translated.button}</Button>
           </div>
         </div>
         <div className={classes.thumbnailContainer}>
