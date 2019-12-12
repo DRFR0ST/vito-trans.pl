@@ -7,7 +7,6 @@ import {
   Button,
   ClickAwayListener,
   Grow,
-  Icon,
   IconButton,
   MenuItem,
   MenuList,
@@ -61,23 +60,23 @@ const useStyles = makeStyles((theme: AugmentedTheme) =>
   })
 );
 
-const tabs = [
-  {
-    key: 'home',
-  },
-  {
-    key: 'about',
-  },
-  {
-    key: 'offer',
-  },
-  {
-    key: 'area',
-  },
-  {
-    key: 'contact',
-  },
-];
+// const tabs = [
+//   {
+//     key: 'home',
+//   },
+//   {
+//     key: 'about',
+//   },
+//   {
+//     key: 'offer',
+//   },
+//   {
+//     key: 'area',
+//   },
+//   {
+//     key: 'contact',
+//   },
+// ];
 
 interface Props {
   children: React.ReactElement;
@@ -85,8 +84,8 @@ interface Props {
 
 export default function ElevateAppBar(props: Props) {
   const classes = useStyles();
-  const [translated, language, setLanguage] = useLittera(MenuTrans);
-  const [activeTab, setActiveTab] = useState(0);
+  const [, language, setLanguage] = useLittera(MenuTrans);
+  const [, ] = useState(0);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const langRef = useRef(null);
   const plFlag = (
@@ -164,6 +163,7 @@ export default function ElevateAppBar(props: Props) {
           <img
             className={classes.title}
             src={trigger ? logoWhiteImage : logoImage}
+            alt="logo"
           />
           <div className={classes.content}>
             <Button

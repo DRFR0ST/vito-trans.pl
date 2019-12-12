@@ -3,7 +3,7 @@ import {
   createStyles,
   makeStyles
 } from "@material-ui/core/styles";
-import { Card, Icon, Typography } from "@material-ui/core";
+import { Card, Icon } from "@material-ui/core";
 
 import { ContactTrans } from "../../trans/";
 import React from "react";
@@ -121,6 +121,7 @@ const Contact: React.FC = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2344.2542211334426!2d15.960315315863836!3d54.016011980124766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47004ba6701a1b4d%3A0xc1dd35d5a94c1393!2zU8WCb3dpxYRza2EgMSwgNzgtMjAwIEJpYcWCb2dhcmQ!5e0!3m2!1sen!2spl!4v1576190720190!5m2!1sen!2spl"
               style={{ border: 0, width: "100%", height: "100%" }}
+              title="Google Maps"
             ></iframe>
           </Card>
         </div>

@@ -6,8 +6,6 @@ import {
 
 import React from "react";
 import { Typography } from "@material-ui/core";
-import { TypographyProps } from "@material-ui/system";
-import { useLittera } from "react-littera";
 
 const useStyles = makeStyles((theme: AugmentedTheme) =>
     createStyles({
